@@ -26,3 +26,14 @@ $students =array(
 
     }
  }
+ //uzd 4
+ $students2 =array(
+    array('Džons', 20, 90,85,88),
+    array('Džena', 22, 92,80,84),
+    array('Džo', 21, 78,85,90)
+);
+for($i=0;$i<3;$i++){
+    for($j=0;$j<5;$j++){
+        echo $students2[$i][$j]."\n";
+    }
+ }
