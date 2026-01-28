@@ -37,3 +37,18 @@ for($i=0;$i<3;$i++){
         echo $students2[$i][$j]."\n";
     }
  }
+
+
+ //uzd5
+$assocAnimal = [
+    "dzivnieks" => "lauva", "weight" => 250,"klase" => "ziditajs", "laupijums" => ["gazele", "zebra"]
+];
+
+$animals = [
+    $assocAnimal,
+    ["dzivnieks" => "vilks","weight" => 40,"klase" => "ziditajs","laupijums" => ["zaķis", "stirna"]],
+    ["dzivnieks" => "ērglis","weight" => 6,"klase" => "putns","laupijums" => ["pele", "zivs"]]
+];
+foreach ($animals as $animal) {
+    var_dump($animal);
+}
